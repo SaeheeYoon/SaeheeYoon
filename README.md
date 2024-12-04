@@ -77,9 +77,13 @@ Make final edits to their writing based on peer feedback and grammar check resul
 Reflect on their experience with using past tense and relative clauses, noting any challenges or successes.
 
 Notes for Teachers
+
 ✅ Ensure all grammar apps (Grammarly, Gradio Writing Checker) are set up and functioning before the lesson.
+
 🛠️ Be prepared to assist students with any technical difficulties when using the grammar check apps.
+
 💬 Encourage students to focus on accuracy while writing, particularly with past tense and relative clauses.
+
 ⚙️ Adapt the activities if necessary depending on students' proficiency levels, especially with grammar and writing skills.
 
 Time Management: Be mindful of time to ensure students have enough time to write, revise, and reflect.
