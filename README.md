@@ -6,97 +6,83 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-<!---
-SaeheeYoon/SaeheeYoon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-# Import required libraries
-import gradio as gr  # Assuming Gradio for interactive apps
-import time  # To manage activity durations
+Teaching Procedure (55 minutes)
+1. ✍️ Writing Activity (35 minutes)
+(1) Pre-Writing Activity: Grammar Focus (10 minutes)
+🎯Objective: Review key grammar structures related to the writing activity, focusing on past tense verbs and relative clauses.
 
-# Lesson Plan for Writing and Grammar
+📱Activity:
 
-# Step 1: Grammar Activity (20 minutes)
+Provide examples of sentences using past tense and relative clauses.
+"I found a book that was very old."
+"She visited the museum where I discovered the treasure."
+Use a Grammarly app (or equivalent) to analyze and discuss sentence structures with the class.
+👨‍🏫Teacher's Role:
 
-def grammar_review_activity():
-    """
-    Review grammar rules and practice using gap-fill exercises.
-    """
-    print("Starting Grammar Review...")
-    
-    # Define grammar focus: e.g., past tense or relative clauses
-    grammar_topic = "Past Tense Verbs"
-    print(f"Today's grammar focus: {grammar_topic}")
-    
-    # Activity: Use a Gradio app for gap-fill exercises
-    gap_fill_app = gr.Interface.load("huggingface-project-name/gap-fill-app")  # Replace with actual app ID
-    print("Launching Grammar Practice App...")
-    gap_fill_app.launch()
-    
-    # Allow 20 minutes for grammar practice
-    time.sleep(20 * 60)
-    print("Grammar Activity Complete.")
+Explain the rules for past tense verbs and relative clauses.
+Provide students with additional examples, focusing on the structure of the relative clause and irregular past tense verbs.
+Monitor and assist with any questions students have.
+👦👧Students' Role:
 
-# Step 2: Writing Activity (35 minutes)
+Participate in the grammar review by noting examples and asking questions about past tense and relative clauses.
+Practice creating their own sentences using past tense and relative clauses.
+(2) Writing Prompt and Guided Writing (20 minutes)
+🎯Objective: Foster creative writing while focusing on the correct use of past tense and relative clauses.
 
-def writing_prompt_activity():
-    """
-    Guide students to write a short essay using a provided prompt.
-    """
-    print("Starting Writing Activity...")
-    
-    # Writing prompt
-    prompt = """
-    Think about a memorable day you experienced last year. 
-    Write about what happened, how you felt, and what you learned from the experience. 
-    Use at least 3 past tense verbs and include 1 relative clause.
-    """
-    print("Writing Prompt:\n", prompt)
-    
-    # Activity: Use a Gradio app for checking writing
-    writing_checker_app = gr.Interface.load("huggingface-project-name/writing-checker-app")  # Replace with actual app ID
-    print("Launching Writing Checker App...")
-    writing_checker_app.launch()
-    
-    # Allow 35 minutes for writing and reviewing
-    time.sleep(35 * 60)
-    print("Writing Activity Complete.")
+📱Activity:
 
-# Step 3: Sharing and Feedback (10 minutes)
+Provide the following writing prompt:
+"In the story, Alex and his friends discovered an ancient treasure in Whispering Hollow and decided to donate the artifacts to the local museum. Have you ever found something valuable or interesting? Write about a similar experience. Describe what you found, what you did with it, and how you felt about your decision. Be sure to use past tense for the events and include at least one relative clause (e.g., 'The book that I found was very old')."
 
-def feedback_activity():
-    """
-    Provide feedback on students' writing and share exemplary works.
-    """
-    print("Starting Feedback Activity...")
-    
-    # Activity: Read and discuss selected student responses
-    print("Teacher will select and discuss exemplary essays.")
-    # Simulate feedback session
-    time.sleep(10 * 60)
-    print("Feedback Activity Complete.")
+Allow students to write their responses while focusing on using past tense verbs and relative clauses.
 
-# Main Function to Execute the Lesson Plan
-def run_lesson_plan():
-    """
-    Execute the full lesson plan step by step.
-    """
-    print("Starting Lesson Plan...\n")
-    
-    # Step 1: Grammar Activity
-    print("Step 1: Grammar Activity")
-    grammar_review_activity()
-    
-    # Step 2: Writing Activity
-    print("Step 2: Writing Activity")
-    writing_prompt_activity()
-    
-    # Step 3: Sharing and Feedback
-    print("Step 3: Sharing and Feedback")
-    feedback_activity()
-    
-    print("Lesson Plan Complete!")
+👨‍🏫Teacher's Role:
 
-# Run the lesson plan
-if __name__ == "__main__":
-    run_lesson_plan()
+Explain the prompt clearly and help students organize their thoughts.
+Provide support as needed, particularly with using relative clauses and maintaining past tense consistency.
+Circulate the room to offer individual assistance, ensuring students are following the grammar focus.
+👦👧Students' Role:
+
+Write a response to the prompt, focusing on past tense usage and incorporating at least one relative clause.
+Share their ideas with a partner or the class if desired, and make sure to review their work for grammatical accuracy.
+(3) Peer Review and Grammar Check (5 minutes)
+🎯Objective: Improve writing accuracy by engaging in peer review and using grammar-check tools.
+
+📱Activity:
+
+Have students swap their writings with a partner to review and provide feedback on the use of past tense and relative clauses.
+Use a Grammarly app or Gradio Writing Checker App to review their writing for grammatical accuracy and correctness.
+👨‍🏫Teacher's Role:
+
+Explain how to give constructive feedback, focusing on grammar and sentence structure.
+Monitor the students as they work on peer review, offering help as needed.
+👦👧Students' Role:
+
+Review their partner’s writing, providing feedback on past tense usage, relative clauses, and overall grammar.
+Use a grammar checker to verify the correctness of their writing and make necessary corrections.
+2. Closing Activity: Final Edits and Reflection (10 minutes)
+🎯Objective: Reflect on the writing process and make final edits.
+
+📱Activity:
+
+Give students time to make final revisions based on the feedback received from their peers and the grammar checker.
+Ask students to reflect on their writing process and identify areas where they felt confident or struggled.
+👨‍🏫Teacher's Role:
+
+Encourage students to review their work one last time and make necessary changes.
+Lead a brief discussion where students share their reflections on the writing process.
+👦👧Students' Role:
+
+Make final edits to their writing based on peer feedback and grammar check results.
+Reflect on their experience with using past tense and relative clauses, noting any challenges or successes.
+Notes for Teachers
+✅ Ensure all grammar apps (Grammarly, Gradio Writing Checker) are set up and functioning before the lesson.
+🛠️ Be prepared to assist students with any technical difficulties when using the grammar check apps.
+💬 Encourage students to focus on accuracy while writing, particularly with past tense and relative clauses.
+⚙️ Adapt the activities if necessary depending on students' proficiency levels, especially with grammar and writing skills.
+Time Management: Be mindful of time to ensure students have enough time to write, revise, and reflect.
+Summary:
+Pre-Writing Grammar Review (10 minutes): Focus on past tense and relative clauses with examples.
+Writing Activity (20 minutes): Students write a response to the prompt, focusing on using past tense and relative clauses.
+Peer Review and Grammar Check (5 minutes): Students review each other's writing and use grammar-checking tools.
+Closing Activity (10 minutes): Students make final revisions and reflect on the writing process.
